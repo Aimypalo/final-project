@@ -1,0 +1,11 @@
+@import "normalize";
+@import "main";
+
+$brand-color: #605856;
+$spacing: 20px;
+$background: #fbfcff;
+
+body {
+	background: lighten( $brand-color, 70% );
+	color: $brand-color;
+}
