@@ -473,7 +473,7 @@ html {
     left: -20%; }
 
 .nav-icon {
-  position: sticky;
+  position: absolute;
   left: 88%;
   top: 8%;
   z-index: 9999;
@@ -526,29 +526,6 @@ html {
         .site-content .pinned .menu a:hover {
           color: #ff1c3a;
           cursor: pointer; }
-
-.slide {
-  width: 95%;
-  float: right;
-  position: sticky;
-  top: 100px;
-  z-index: 9998; }
-  .slide .switch-off {
-    position: absolute;
-    top: 20px;
-    left: 97%;
-    color: #999;
-    font-size: 1.2rem; }
-    .slide .switch-off:hover {
-      cursor: pointer;
-      color: #777; }
-  .slide p {
-    background-color: rgba(51, 51, 51, 0.9);
-    font-size: 1rem;
-    color: white;
-    margin: 0 auto;
-    padding: 3em 3em;
-    text-align: justify; }
 
 section {
   background-color: #fbfcff; }
@@ -608,8 +585,6 @@ h3 {
   background: none;
   width: 100%;
   overflow: hidden; }
-  .links a:hover {
-    cursor: pointer; }
   .links a p {
     width: 100%;
     position: absolute;
@@ -636,7 +611,6 @@ h3 {
     top: 10%;
     left: 25%; }
     .links .photo-gallery p {
-      padding-top: 1.5em;
       font-size: 1.8rem; }
   .links .map-services {
     width: 24%;
@@ -747,27 +721,6 @@ h3 {
       transform: scale(1.15, 1.15);
       filter: brightness(1);
       cursor: pointer; }
-
-.site-footer {
-  background-color: #274156;
-  position: relative;
-  z-index: 9900;
-  padding: 5em 10em 3em;
-  margin-top: 10em;
-  display: inline-block;
-  text-align: center;
-  width: 100%; }
-  .site-footer img {
-    margin: 1.8em;
-    transition: transform .45s ease-in-out; }
-    .site-footer img:hover {
-      transform: scale(1.15, 1.15);
-      cursor: pointer; }
-  .site-footer p {
-    background: none;
-    padding: 4em 0 0;
-    color: #d0ccd0;
-    font-size: 1rem; }
 
 /******************************************
 /* HELPER CLASSES

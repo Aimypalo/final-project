@@ -19,6 +19,9 @@ $(document).ready(function(){
 	});
 
 
+	$('.slide').hide();
+
+
 	$('.home').on('click', function(){
 	    $('html, body').animate({
         scrollTop: $('.site-container').offset().top
@@ -41,25 +44,23 @@ $(document).ready(function(){
 	});
 
 
+	$('.nav-about, .about').on('click', function(){
+		$('.slide').show(2000);
+	});
+
+
+	$('.switch-off').on('click', function(){
+		$('.slide').hide('slow');
+	});
+
+
 	$( '.photo-gallery, .map-services, .web-development, .online-shop, .art, .about, .contact' ).draggable({
-  		containment: ".links"
+  		containment: '.links'
 	});
 
 
 
 
-
-
-	// var $window = $(window);
-	// var menuDistance = $menu.offset().top;
-
-	// $window.on('scroll', function() {
- //    	var scrollPosition = $window.scrollTop();
- //    	if ( scrollPosition > menuDistance) {
- //      		$menu.addClass('pinned');
- //    	} else {
- //       		$menu.removeClass('pinned');
- //       	}
- //    })
-
 });
+
+
