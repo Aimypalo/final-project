@@ -22,6 +22,9 @@ $(document).ready(function(){
 	$('.slide').hide();
 
 
+	$('.contact-form').hide();
+
+
 	$('.home').on('click', function(){
 	    $('html, body').animate({
         scrollTop: $('.site-container').offset().top
@@ -51,6 +54,16 @@ $(document).ready(function(){
 
 	$('.switch-off').on('click', function(){
 		$('.slide').hide('slow');
+	});
+
+
+	$('.nav-contact').on('click', function(){
+		$('.contact-form').show(2000);
+	});
+
+
+	$('.contact-form-off').on('click', function(){
+		$('.contact-form').hide('slow');
 	});
 
 

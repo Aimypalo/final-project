@@ -165,7 +165,7 @@ html {
 	float: right;
 	position: sticky;
 	top: 100px;
-	z-index: 9998;
+	z-index: 9999;
 	.switch-off {
 		position: absolute;
 		top: 20px;
@@ -185,6 +185,90 @@ html {
 	margin: 0 auto;
 	padding: 3em 3em;
 	text-align: justify;
+	}
+}
+
+form {
+	background-color: rgba(96, 88, 86, 0.9);
+	display: inline-block;
+	width: 80%;
+	height: 87vh;
+	position: sticky;
+	top: 75.12px;
+	z-index: 9999;
+	padding: 0em 3em 3em;
+	margin-bottom: 5em;
+	h3 {
+		position: absolute;
+		left: 37%;
+		display: inline-block;
+	}
+	h1 {
+		margin: 2em 0 0;
+		color: $secondary-color;
+	}
+	h4 {
+		margin: 1em 0 2em;
+		font-size: 1.2em;
+		color: $secondary-color;
+	}
+	.contact-form-off {
+		position: absolute;
+		top: 20px;
+		left: 97%;
+		color: $secondary-color;
+		font-size: 1.2rem;
+		padding: 0;
+		background: none;
+		&:hover {
+		cursor: pointer;
+		color: #777;
+		}
+	}
+	.visually-hidden {
+		clip: rect(0 0 0 0); 
+		height: 1px; 
+		margin: -1px; 
+		overflow: hidden; 
+		padding: 0; 
+		position: absolute; 
+		width: 1px;
+	}
+	.text-input {
+		float: left;
+		background-color: white;
+		border: none;
+		color: #444;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 1.5rem;
+		width: 75%;
+		padding: 0.8em;
+		margin-bottom: 1em;
+	}
+	.text-input:focus {
+		background-color: #f6f6f6;
+	}
+	#message {
+		height: 30vh;
+	}
+	input[type="submit"] {
+		float: right;
+		position: absolute;
+		top: 82%;
+		left: 78%;
+		background-color: $highlight;
+		font-size: 1.5em;
+		color: $background;
+		font-family: 'Raleway', sans-serif;
+		letter-spacing: 2px;
+		padding: 1em 2.1em;
+		margin: 0;
+		border-style: none;
+		transition: transform .45s ease-in-out;
+	}
+	input[type="submit"]:hover {
+		cursor: pointer;
+		transform: scale(1.08,1.08);
 	}
 }
 
@@ -441,6 +525,9 @@ h3 {
 	display: inline-block;
 	text-align: center;
 	width: 100%;
+	h1 {
+		color: $secondary-color;
+	}
 	img {
 		margin: 1.8em;
 		transition: transform .45s ease-in-out;
@@ -451,9 +538,10 @@ h3 {
 	}
 	p {
 		background: none;
-		padding: 4em 0 0;
+		padding: 2em 0 0;
 		color: $secondary-color;
-		font-size: 1rem;
+		font-size: 0.8rem;
+		font-family: 'Quicksand', sans-serif;
 	}
 }
 
