@@ -293,7 +293,7 @@ p {
 		font-size: 2rem;
 		padding: 3em 3em;
 	}
-	a {
+	.tell-us {
 		text-decoration: none;
 		padding: 1em;
 		text-align: center;
@@ -304,6 +304,7 @@ p {
 		transition: transform .45s ease-in-out;
 		&:hover {
 			transform: scale(1.08,1.08);
+			cursor: pointer;
 		}
 	}
 }

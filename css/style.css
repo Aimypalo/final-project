@@ -640,7 +640,7 @@ p {
     background-color: #d0ccd0;
     font-size: 2rem;
     padding: 3em 3em; }
-  .text-1 a {
+  .text-1 .tell-us {
     text-decoration: none;
     padding: 1em;
     text-align: center;
@@ -649,8 +649,9 @@ p {
     font-size: 1.5rem;
     display: inline-block;
     transition: transform .45s ease-in-out; }
-    .text-1 a:hover {
-      transform: scale(1.08, 1.08); }
+    .text-1 .tell-us:hover {
+      transform: scale(1.08, 1.08);
+      cursor: pointer; }
 
 .text-2 {
   color: #ff1c3a;

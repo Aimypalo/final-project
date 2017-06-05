@@ -57,7 +57,7 @@ $(document).ready(function(){
 	});
 
 
-	$('.nav-contact, .contact').on('click', function(){
+	$('.nav-contact, .contact, .tell-us').on('click', function(){
 		$('.contact-form').show(2000);
 	});
 
