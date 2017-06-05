@@ -484,7 +484,8 @@ html {
   font-weight: 300;
   transition: transform .45s ease-in-out; }
   .nav-icon:hover {
-    transform: scale(1.3, 1.3); }
+    transform: scale(1.3, 1.3);
+    cursor: pointer; }
 
 .scroll-icon {
   position: absolute;
@@ -496,7 +497,8 @@ html {
   text-decoration: none;
   transition: transform .45s ease-in-out; }
   .scroll-icon:hover {
-    transform: scale(1.3, 1.3); }
+    transform: scale(1.3, 1.3);
+    cursor: pointer; }
 
 .site-content {
   position: relative;
