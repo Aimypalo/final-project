@@ -446,6 +446,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
     filter: brightness(50%);
     z-index: 1; }
 
