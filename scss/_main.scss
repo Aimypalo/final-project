@@ -321,6 +321,7 @@ h3 {
 	text-align: center;
 	position: absolute;
 	left: 45%;
+	top: 0;
 	background-color: $highlight;
 	letter-spacing: 5px;
 	padding: 0.2em 1.5em;
@@ -339,6 +340,7 @@ h3 {
 	position: relative;
 	background: none;
 	width: 100%;
+	height: 100vh;
 	overflow: hidden;
 	a {
 		&:hover {
@@ -347,10 +349,11 @@ h3 {
 		p {
 			width: 100%;
 			position: absolute;
-			color: #333;
+			z-index: 1000;
 			text-decoration: none;
-			color: $brand-color;
-			font-family: 'Quicksand', sans-serif;
+			// color: $brand-color;
+			color: white;
+			font-family: 'Raleway', sans-serif;
 			font-weight: 700;
 			letter-spacing: 8px;
 			line-height: 1.8em;
@@ -360,81 +363,148 @@ h3 {
 			top: 0;
 			left: 0;
 			bottom: 0;
-			&:hover {
-				background-color: rgba(255, 28, 58, 0.5);
-			}
+			// &:hover {
+			// 	background-color: rgba(255, 28, 58, 0.5);
+			// }
 		}
 		img {
+			position: relative;
 			display: block;
+			opacity: 0.8;
+			z-index: 8900;
+			&:hover {
+				background-color: rgba(255, 28, 58, 0.5);
+				z-index: 200;
+			}
 		}
 	}
+	.waves-video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			filter: brightness(50%);
+			z-index: 10;
+		}
 	.photo-gallery {
-		width: 17%;
+		// width: 17%;
 		position: absolute;
 		top: 10%;
 		left: 25%;
+		z-index: 8900;
+		background-color: rgba(3, 3, 3, 0.5);
+		// transform: scale(1.3, 1.3);
 		p {
-			padding-top: 1.5em;
-			font-size: 1.8rem;
+			// padding-top: 1.3em;
+			font-size: 1.7rem;
+			top: 20%;
 		}
 	}
 	.map-services {
-		width: 24%;
+		// width: 24%;
 		position: absolute;
-		top: 52%;
-		left: 45%;
+		top: 63%;
+		left: 50%;
+		z-index: 8900;
+		background-color: rgba(3, 3, 3, 0.5);
+		// transform: scale(1.3, 1.3);
 		p {
-			padding-top: 2.3em;
+			// padding-top: 1.6em;
 			font-size: 2.4rem;
+			top: 30%;
 		}
 	}
 	.web-development {
-		width: 24%;
+		// width: 24%;
 		position: absolute;
-		top: 32%;
-		left: 75%;
+		top: 37%;
+		left: 77%;
+		z-index: 8900;
+		transform: scale(1.3, 1.3);
 		p {
-			padding-top: 1.5em;
-			font-size: 1.8rem;		}
+			// padding-top: 1.5em;
+			font-size: 1.5rem;
+			top: 10%;
+			letter-spacing: 5px;
+		}
 	}
 	.online-shop {
-		width: 16%;
+		// width: 16%;
 		position: absolute;
-		top: 55%;
-		left: 24%;
+		top: 65%;
+		left: 25%;
+		z-index: 8900;
+		transform: scale(1.3, 1.3);
 		p {
-			padding-top: 0.6em;
-			font-size: 1.8rem;
+			// padding-top: 0.6em;
+			font-size: 1.5rem;
+			top: 10%;
 		}
 	}
 	.art {
-		width: 12%;
+		// width: 12%;
 		position: absolute;
 		top: 15%;
 		left: 47%;
+		z-index: 8900;
+		transform: scale(1.3, 1.3);
+		background-color: rgba(3, 3, 3, 0.5);
 		p {
-			padding-top: 0.5em;
-			font-size: 3.4rem;
+			// padding-top: 0.5em;
+			font-size: 3rem;
+			top: 15%;
 		}
 	}
 	.about {
-		width: 17%;
+		// width: 17%;
 		position: absolute;
-		top: 44%;
-		left: 37%;
+		top: 40%;
+		left: 40%;
+		z-index: 8900;
+		transform: scale(1.3, 1.3);
 		p {
-			padding-top: 0.4em;
-			font-size: 2.8rem;
+			// padding-top: 0.4em;
+			font-size: 2.1rem;
+			top: 20%;
 		}
 	}
 	.contact {
-		width: 16%;
+		// width: 16%;
 		position: absolute;
 		top: 48%;
-		left: 0%;
+		left: 5%;
+		z-index: 8900;
+		transform: scale(1.3, 1.3);
+		background-color: rgba(3, 3, 3, 0.5);
 		p {
-			padding-top: 0.9em;
-			font-size: 2.2rem;
+			// padding-top: 0.9em;
+			font-size: 2rem;
+			top: 20%;
+			letter-spacing: 6px;
+		}
+	}
+	.drag-me {
+		width: 10%;
+		position: absolute;
+		top: 6%;
+		left: 65%;
+		z-index: 8900;
+		transform: scale(1.3, 1.3);
+		a {
+			display: inline-block;
+			padding: 0.9em;
+			font-size: 1.5rem;
+			color: white;
+			font-family: 'Raleway';
+			font-weight: 700;
+			line-height: 1.8em;
+			text-align: center;
+			letter-spacing: 6px;
+			line-height: 1.2em;
+			border: solid white 1px;
+			&:hover {
+				background-color: rgba(255, 28, 58, 0.5);
+			}
 		}
 	}
 }
@@ -449,9 +519,11 @@ h3 {
 
 .services {
 	border-top: 3px solid $highlight;
+	position: relative;
 	h3 {
 		position: absolute;
 		left: 40%;
+		top: 0;
 	}
 }
 
