@@ -67,9 +67,10 @@ $(document).ready(function(){
 	});
 
 
-	$( '.photo-gallery, .map-services, .web-development, .online-shop, .art, .about, .contact' ).draggable({
+	$( '.photo-gallery, .map-services, .web-development, .online-shop, .art, .about, .contact, .drag-me' ).draggable({
   		containment: '.links'
 	});
+
 
 
 
