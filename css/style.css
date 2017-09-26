@@ -503,6 +503,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  height: 100vh;
   filter: brightness(50%);
   z-index: 1;
   overflow: hidden;
@@ -1060,8 +1061,7 @@ h3 {
 /* MEDIA QUERIES */
 @media screen and (max-width: 320px) {
   .video-container video {
-    top: -125px;
-    left: -190px;
+    height: 100vh;
   }
   .video-container .brand-title {
     top: 12%;
