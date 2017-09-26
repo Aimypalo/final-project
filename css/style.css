@@ -15,7 +15,8 @@ html {
   -ms-text-size-adjust: 100%;
   /* 3 */
   -webkit-text-size-adjust: 100%;
-  /* 3 */ }
+  /* 3 */
+}
 
 /* Sections
    ========================================================================== */
@@ -23,7 +24,8 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /**
  * Add the correct display in IE 9-.
@@ -34,7 +36,8 @@ footer,
 header,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -42,7 +45,8 @@ section {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /* Grouping content
    ========================================================================== */
@@ -54,13 +58,15 @@ figcaption,
 figure,
 main {
   /* 1 */
-  display: block; }
+  display: block;
+}
 
 /**
  * Add the correct margin in IE 8.
  */
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
 /**
  * 1. Add the correct box sizing in Firefox.
@@ -72,7 +78,8 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -82,7 +89,8 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Text-level semantics
    ========================================================================== */
@@ -94,7 +102,8 @@ a {
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the outline on focused links when they are also active or hovered
@@ -102,7 +111,8 @@ a {
  */
 a:active,
 a:hover {
-  outline-width: 0; }
+  outline-width: 0;
+}
 
 /**
  * 1. Remove the bottom border in Firefox 39-.
@@ -114,21 +124,24 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
 b,
 strong {
-  font-weight: inherit; }
+  font-weight: inherit;
+}
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -140,26 +153,30 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Add the correct font style in Android 4.3-.
  */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
  * Add the correct background and color in IE 9-.
  */
 mark {
   background-color: #ff0;
-  color: #000; }
+  color: #000;
+}
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -170,13 +187,16 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 /* Embedded content
    ========================================================================== */
@@ -185,26 +205,30 @@ sup {
  */
 audio,
 video {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /**
  * Add the correct display in iOS 4-7.
  */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Remove the border on images inside links in IE 10-.
  */
 img {
-  border-style: none; }
+  border-style: none;
+}
 
 /**
  * Hide the overflow in IE.
  */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Forms
    ========================================================================== */
@@ -224,7 +248,8 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Show the overflow in IE.
@@ -233,7 +258,8 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -242,7 +268,8 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
@@ -254,7 +281,8 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -264,7 +292,8 @@ button::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Restore the focus styles unset by the previous rule.
@@ -273,7 +302,8 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
+  outline: 1px dotted ButtonText;
+}
 
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
@@ -281,7 +311,8 @@ button:-moz-focusring,
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -301,7 +332,8 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */ }
+  /* 1 */
+}
 
 /**
  * 1. Add the correct display in IE 9-.
@@ -311,13 +343,15 @@ progress {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the default vertical scrollbar in IE.
  */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * 1. Add the correct box sizing in IE 10-.
@@ -328,14 +362,16 @@ textarea {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+  height: auto;
+}
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -345,14 +381,16 @@ textarea {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -362,7 +400,8 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Interactive
    ========================================================================== */
@@ -372,13 +411,15 @@ textarea {
  */
 details,
 menu {
-  display: block; }
+  display: block;
+}
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item; }
+  display: list-item;
+}
 
 /* Scripting
    ========================================================================== */
@@ -386,13 +427,15 @@ summary {
  * Add the correct display in IE 9-.
  */
 canvas {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /**
  * Add the correct display in IE.
  */
 template {
-  display: none; }
+  display: none;
+}
 
 /* Hidden
    ========================================================================== */
@@ -400,7 +443,8 @@ template {
  * Add the correct display in IE 10-.
  */
 [hidden] {
-  display: none; }
+  display: none;
+}
 
 /* 
 Project Name: AP Art Studios
@@ -415,10 +459,12 @@ Author: Aimy Palogiannidou
 /* SENSIBLE DEFAULTS                   
 /*******************************************/
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 /******************************************
 /* TYPOGRAPHY
@@ -427,51 +473,67 @@ img {
 html {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 /******************************************
 /* LAYOUT                   
 /*******************************************/
+body {
+  max-width: 100%;
+}
+
+.site-content {
+  max-width: 100%;
+}
+
 .site-container {
   max-width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .video-container {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
   overflow: hidden;
-  z-index: 1; }
-  .video-container video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    filter: brightness(50%);
-    z-index: 1; }
+  z-index: 1;
+}
+.video-container video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  filter: brightness(50%);
+  z-index: 1;
+  overflow: hidden;
+}
 
 .brand-title {
   z-index: 9999;
   position: absolute;
   top: 26%;
-  left: 30%; }
-  .brand-title h1 {
-    color: white;
-    font-family: 'Raleway Dots', cursive;
-    letter-spacing: 2px;
-    font-size: 5rem;
-    text-align: center; }
-  .brand-title h2 {
-    color: white;
-    font-weight: 300;
-    text-align: center;
-    letter-spacing: 2px; }
-  .brand-title .logo {
-    width: 110px;
-    height: 90px;
-    position: absolute;
-    top: 21%;
-    left: -20%; }
+  left: 30%;
+}
+.brand-title h1 {
+  color: white;
+  font-family: 'Raleway Dots', cursive;
+  letter-spacing: 2px;
+  font-size: 5rem;
+  text-align: center;
+}
+.brand-title h2 {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.brand-title .logo {
+  width: 110px;
+  height: 90px;
+  position: absolute;
+  top: 21%;
+  left: -20%;
+}
 
 .nav-icon {
   position: sticky;
@@ -482,10 +544,12 @@ html {
   font-size: 4rem;
   text-decoration: none;
   font-weight: 300;
-  transition: transform .45s ease-in-out; }
-  .nav-icon:hover {
-    transform: scale(1.3, 1.3);
-    cursor: pointer; }
+  transition: transform .45s ease-in-out;
+}
+.nav-icon:hover {
+  transform: scale(1.3, 1.3);
+  cursor: pointer;
+}
 
 .scroll-icon {
   position: absolute;
@@ -495,63 +559,74 @@ html {
   color: white;
   font-size: 4rem;
   text-decoration: none;
-  transition: transform .45s ease-in-out; }
-  .scroll-icon:hover {
-    transform: scale(1.3, 1.3);
-    cursor: pointer; }
+  transition: transform .45s ease-in-out;
+}
+.scroll-icon:hover {
+  transform: scale(1.3, 1.3);
+  cursor: pointer;
+}
 
 .site-content {
   position: relative;
   z-index: 9000;
-  width: 100%; }
-  .site-content .pinned {
-    position: sticky;
-    top: 75.12px;
-    z-index: 9999; }
-    .site-content .pinned .menu {
-      text-align: center;
-      background-color: rgba(96, 88, 86, 0.6);
-      padding: 1.6em;
-      display: none;
-      width: 100%;
-      position: absolute;
-      left: 0;
-      bottom: 100%;
-      z-index: 9999; }
-      .site-content .pinned .menu a {
-        text-decoration: none;
-        display: inline-block;
-        width: 16.667%;
-        text-align: center;
-        color: #fbfcff;
-        font-size: 1.3rem;
-        letter-spacing: 4px; }
-        .site-content .pinned .menu a:hover {
-          color: #ff1c3a;
-          cursor: pointer; }
+  max-width: 100%;
+}
+.site-content .pinned {
+  position: sticky;
+  top: 75.12px;
+  z-index: 9999;
+}
+.site-content .pinned .menu {
+  text-align: center;
+  background-color: rgba(96, 88, 86, 0.6);
+  padding: 1.6em;
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  z-index: 9999;
+}
+.site-content .pinned .menu a {
+  text-decoration: none;
+  display: inline-block;
+  width: 16.667%;
+  text-align: center;
+  color: #fbfcff;
+  font-size: 1.3rem;
+  letter-spacing: 4px;
+}
+.site-content .pinned .menu a:hover {
+  color: #ff1c3a;
+  cursor: pointer;
+}
 
 .slide {
-  width: 95%;
+  max-width: 95%;
   float: right;
   position: sticky;
   top: 100px;
-  z-index: 9999; }
-  .slide .switch-off {
-    position: absolute;
-    top: 20px;
-    left: 97%;
-    color: #999;
-    font-size: 1.2rem; }
-    .slide .switch-off:hover {
-      cursor: pointer;
-      color: #777; }
-  .slide p {
-    background-color: rgba(51, 51, 51, 0.9);
-    font-size: 1rem;
-    color: white;
-    margin: 0 auto;
-    padding: 3em 3em;
-    text-align: justify; }
+  z-index: 9999;
+}
+.slide .switch-off {
+  position: absolute;
+  top: 20px;
+  left: 97%;
+  color: #999;
+  font-size: 1.2rem;
+}
+.slide .switch-off:hover {
+  cursor: pointer;
+  color: #777;
+}
+.slide p {
+  background-color: rgba(51, 51, 51, 0.9);
+  font-size: 1rem;
+  color: white;
+  margin: 0 auto;
+  padding: 3em 3em;
+  text-align: justify;
+}
 
 form {
   background-color: rgba(96, 88, 86, 0.9);
@@ -562,105 +637,125 @@ form {
   top: 75.12px;
   z-index: 9999;
   padding: 0em 3em 3em;
-  margin-bottom: 5em; }
-  form h3 {
-    position: absolute;
-    left: 37%;
-    display: inline-block; }
-  form h1 {
-    margin: 2em 0 0;
-    color: #d0ccd0; }
-  form h4 {
-    margin: 1em 0 2em;
-    font-size: 1.2em;
-    color: #d0ccd0; }
-  form .contact-form-off {
-    position: absolute;
-    top: 20px;
-    left: 97%;
-    color: #d0ccd0;
-    font-size: 1.2rem;
-    padding: 0;
-    background: none; }
-    form .contact-form-off:hover {
-      cursor: pointer;
-      color: #777; }
-  form .visually-hidden {
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px; }
-  form .text-input {
-    float: left;
-    background-color: white;
-    border: none;
-    color: #444;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;
-    width: 75%;
-    padding: 0.8em;
-    margin-bottom: 1em; }
-  form .text-input:focus {
-    background-color: #f6f6f6; }
-  form #message {
-    height: 30vh; }
-  form input[type="submit"] {
-    float: right;
-    position: absolute;
-    top: 82%;
-    left: 78%;
-    background-color: #ff1c3a;
-    font-size: 1.5em;
-    color: #fbfcff;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
-    padding: 1em 2.1em;
-    margin: 0;
-    border-style: none;
-    transition: transform .45s ease-in-out; }
-  form input[type="submit"]:hover {
-    cursor: pointer;
-    transform: scale(1.08, 1.08); }
+  margin-bottom: 5em;
+}
+form h3 {
+  position: absolute;
+  left: 37%;
+  display: inline-block;
+}
+form h1 {
+  margin: 2em 0 0;
+  color: #d0ccd0;
+}
+form h4 {
+  margin: 1em 0 2em;
+  font-size: 1.2em;
+  color: #d0ccd0;
+}
+form .contact-form-off {
+  position: absolute;
+  top: 20px;
+  left: 97%;
+  color: #d0ccd0;
+  font-size: 1.2rem;
+  padding: 0;
+  background: none;
+}
+form .contact-form-off:hover {
+  cursor: pointer;
+  color: #777;
+}
+form .visually-hidden {
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+form .text-input {
+  float: left;
+  background-color: white;
+  border: none;
+  color: #444;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  width: 75%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+}
+form .text-input:focus {
+  background-color: #f6f6f6;
+}
+form #message {
+  height: 30vh;
+}
+form input[type="submit"] {
+  float: right;
+  position: absolute;
+  top: 82%;
+  left: 78%;
+  background-color: #ff1c3a;
+  font-size: 1.5em;
+  color: #fbfcff;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  padding: 1em 2.1em;
+  margin: 0;
+  border-style: none;
+  transition: transform .45s ease-in-out;
+}
+form input[type="submit"]:hover {
+  cursor: pointer;
+  transform: scale(1.08, 1.08);
+}
 
 section {
-  background-color: #fbfcff; }
+  background-color: #fbfcff;
+}
 
 p {
   background-color: #fbfcff;
   margin: 0;
   text-align: center;
   padding: 4em 3em;
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 .text-1 {
   background-color: #d0ccd0;
   text-align: center;
-  padding: 5em 0 7em; }
-  .text-1 p {
-    background-color: #d0ccd0;
-    font-size: 2rem;
-    padding: 3em 3em; }
-  .text-1 .tell-us {
-    text-decoration: none;
-    padding: 1em;
-    text-align: center;
-    background-color: #274156;
-    color: #fbfcff;
-    font-size: 1.5rem;
-    display: inline-block;
-    transition: transform .45s ease-in-out; }
-    .text-1 .tell-us:hover {
-      transform: scale(1.08, 1.08);
-      cursor: pointer; }
+  padding: 5em 0 7em;
+}
+.text-1 p {
+  background-color: #d0ccd0;
+  font-size: 2rem;
+  padding: 3em 3em;
+}
+.text-1 .tell-us {
+  text-decoration: none;
+  padding: 1em;
+  text-align: center;
+  background-color: #274156;
+  color: #fbfcff;
+  font-size: 1.5rem;
+  display: inline-block;
+  transition: transform .45s ease-in-out;
+}
+.text-1 .tell-us:hover {
+  transform: scale(1.08, 1.08);
+  cursor: pointer;
+}
 
 .text-2 {
   color: #ff1c3a;
   font-size: 2.5rem;
   font-weight: 300;
-  letter-spacing: 5px; }
+  letter-spacing: 5px;
+  overflow: hidden;
+}
 
 h3 {
   margin: 0;
@@ -673,203 +768,241 @@ h3 {
   letter-spacing: 5px;
   padding: 0.2em 1.5em;
   color: #fbfcff;
-  z-index: 9000; }
+  z-index: 9000;
+}
 
 .map {
   filter: brightness(0.8);
-  display: block; }
+  display: block;
+}
 
 .links {
   border-top: 3px solid #ff1c3a;
   position: relative;
-  background: none;
-  width: 100%;
+  background-color: rgba(53, 48, 47, 0.9);
+  max-width: 100%;
   height: 100vh;
-  overflow: hidden; }
-  .links a:hover {
-    cursor: pointer; }
-  .links a p {
-    width: 100%;
-    position: absolute;
-    z-index: 1000;
-    text-decoration: none;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    letter-spacing: 8px;
-    line-height: 1.8em;
-    text-align: center;
-    padding: 0;
-    background: none;
-    top: 0;
-    left: 0;
-    bottom: 0; }
-  .links a img {
-    position: relative;
-    display: block;
-    opacity: 0.8;
-    z-index: 8900; }
-    .links a img:hover {
-      background-color: rgba(255, 28, 58, 0.5);
-      z-index: 200; }
-  .links .waves-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    filter: brightness(50%);
-    z-index: 10; }
-  .links .photo-gallery {
-    position: absolute;
-    top: 10%;
-    left: 25%;
-    z-index: 8900;
-    background-color: rgba(3, 3, 3, 0.5); }
-    .links .photo-gallery p {
-      font-size: 1.7rem;
-      top: 20%; }
-  .links .map-services {
-    position: absolute;
-    top: 63%;
-    left: 50%;
-    z-index: 8900;
-    background-color: rgba(3, 3, 3, 0.5); }
-    .links .map-services p {
-      font-size: 2.4rem;
-      top: 30%; }
-  .links .web-development {
-    position: absolute;
-    top: 37%;
-    left: 77%;
-    z-index: 8900;
-    transform: scale(1.3, 1.3); }
-    .links .web-development p {
-      font-size: 1.5rem;
-      top: 10%;
-      letter-spacing: 5px; }
-  .links .online-shop {
-    position: absolute;
-    top: 65%;
-    left: 25%;
-    z-index: 8900;
-    transform: scale(1.3, 1.3); }
-    .links .online-shop p {
-      font-size: 1.5rem;
-      top: 10%; }
-  .links .art {
-    position: absolute;
-    top: 15%;
-    left: 47%;
-    z-index: 8900;
-    transform: scale(1.3, 1.3);
-    background-color: rgba(3, 3, 3, 0.5); }
-    .links .art p {
-      font-size: 3rem;
-      top: 15%; }
-  .links .about {
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    z-index: 8900;
-    transform: scale(1.3, 1.3); }
-    .links .about p {
-      font-size: 2.1rem;
-      top: 20%; }
-  .links .contact {
-    position: absolute;
-    top: 48%;
-    left: 5%;
-    z-index: 8900;
-    transform: scale(1.3, 1.3);
-    background-color: rgba(3, 3, 3, 0.5); }
-    .links .contact p {
-      font-size: 2rem;
-      top: 20%;
-      letter-spacing: 6px; }
-  .links .drag-me {
-    width: 10%;
-    position: absolute;
-    top: 6%;
-    left: 65%;
-    z-index: 8900;
-    transform: scale(1.3, 1.3); }
-    .links .drag-me a {
-      display: inline-block;
-      padding: 0.9em;
-      font-size: 1.5rem;
-      color: white;
-      font-family: 'Raleway';
-      font-weight: 700;
-      line-height: 1.8em;
-      text-align: center;
-      letter-spacing: 6px;
-      line-height: 1.2em;
-      border: solid white 1px; }
-      .links .drag-me a:hover {
-        background-color: rgba(255, 28, 58, 0.5); }
+  overflow: hidden;
+}
+.links a:hover {
+  cursor: pointer;
+}
+.links a p {
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  letter-spacing: 8px;
+  line-height: 1.8em;
+  text-align: center;
+  padding: 0;
+  background: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.links a img {
+  position: relative;
+  display: block;
+  opacity: 0.8;
+  z-index: 8900;
+}
+.links a img:hover {
+  background-color: rgba(3, 3, 3, 0.5);
+  z-index: 200;
+}
+.links .waves-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  filter: brightness(50%);
+  z-index: 10;
+}
+.links .photo-gallery {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  z-index: 8900;
+}
+.links .photo-gallery p {
+  font-size: 1.7rem;
+  top: 20%;
+}
+.links .map-services {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  z-index: 8900;
+}
+.links .map-services p {
+  font-size: 2.4rem;
+  top: 30%;
+}
+.links .web-development {
+  position: absolute;
+  top: 37%;
+  left: 77%;
+  z-index: 8900;
+  transform: scale(1.3, 1.3);
+}
+.links .web-development p {
+  font-size: 1.5rem;
+  top: 10%;
+  letter-spacing: 5px;
+}
+.links .online-shop {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  z-index: 8900;
+  transform: scale(1.3, 1.3);
+}
+.links .online-shop p {
+  font-size: 1.5rem;
+  top: 10%;
+}
+.links .art {
+  position: absolute;
+  top: 15%;
+  left: 47%;
+  z-index: 8900;
+  transform: scale(1.3, 1.3);
+}
+.links .art p {
+  font-size: 3rem;
+  top: 15%;
+}
+.links .about {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 8900;
+  transform: scale(1.3, 1.3);
+}
+.links .about p {
+  font-size: 2.1rem;
+  top: 20%;
+}
+.links .contact {
+  position: absolute;
+  top: 48%;
+  left: 5%;
+  z-index: 8900;
+  transform: scale(1.3, 1.3);
+}
+.links .contact p {
+  font-size: 2rem;
+  top: 20%;
+  letter-spacing: 6px;
+}
+.links .drag-me {
+  width: 10%;
+  position: absolute;
+  top: 6%;
+  left: 65%;
+  z-index: 8900;
+  transform: scale(1.3, 1.3);
+}
+.links .drag-me a {
+  display: inline-block;
+  padding: 0.9em;
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Raleway';
+  font-weight: 700;
+  line-height: 1.8em;
+  text-align: center;
+  letter-spacing: 6px;
+  line-height: 1.2em;
+  border: solid white 1px;
+}
+.links .drag-me a:hover {
+  background-color: rgba(255, 28, 58, 0.5);
+}
 
 .text-3 {
   position: relative;
   color: #274156;
   font-weight: 300;
   font-size: 2.5rem;
-  letter-spacing: 5px; }
+  letter-spacing: 5px;
+  overflow: hidden;
+}
 
 .services {
+  max-width: 100%;
   border-top: 3px solid #ff1c3a;
-  position: relative; }
-  .services h3 {
-    position: absolute;
-    left: 40%;
-    top: 0; }
+  position: relative;
+  overflow: hidden;
+}
+.services h3 {
+  position: absolute;
+  left: 40%;
+  top: 0;
+}
 
 .grid-row {
+  max-width: 100%;
+  height: 100%;
+  background-color: #d0ccd0;
+}
+.grid-row .grid-column {
+  width: 50%;
+  display: block;
+  float: left;
+}
+.grid-row .text {
+  padding: 2em 5em 0;
+  display: table;
+  position: relative;
+}
+.grid-row .text a {
+  text-decoration: none;
+  color: #605856;
+  display: block;
   width: 100%;
   height: 100%;
-  background-color: #d0ccd0; }
-  .grid-row .grid-column {
-    width: 50%;
-    display: block;
-    float: left; }
-  .grid-row .text {
-    padding: 2em 5em 0;
-    display: table;
-    position: relative; }
-    .grid-row .text a {
-      text-decoration: none;
-      color: #605856;
-      display: block;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      left: 0; }
-      .grid-row .text a:hover ul p {
-        color: #ff1c3a; }
-    .grid-row .text ul {
-      padding: 5em; }
-    .grid-row .text ul p {
-      font-size: 1.8rem;
-      font-weight: 400;
-      text-align: center;
-      padding: 0;
-      background-color: #d0ccd0; }
-    .grid-row .text li {
-      list-style-type: none;
-      font-size: 0.9rem;
-      font-family: 'Quicksand', sans-serif;
-      text-align: center;
-      padding-top: 1.1em; }
+  position: absolute;
+  left: 0;
+}
+.grid-row .text a:hover ul p {
+  color: #ff1c3a;
+}
+.grid-row .text ul {
+  padding: 5em;
+}
+.grid-row .text ul p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0;
+  background-color: #d0ccd0;
+}
+.grid-row .text li {
+  list-style-type: none;
+  font-size: 0.9rem;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  padding-top: 1.1em;
+}
 
 .image-container {
-  overflow: hidden; }
-  .image-container img {
-    display: block;
-    filter: brightness(0.8);
-    transition: filter, transform .45s ease-in-out; }
-    .image-container img:hover {
-      transform: scale(1.15, 1.15);
-      filter: brightness(1);
-      cursor: pointer; }
+  overflow: hidden;
+}
+.image-container img {
+  display: block;
+  filter: brightness(0.8);
+  transition: filter, transform .45s ease-in-out;
+}
+.image-container img:hover {
+  transform: scale(1.15, 1.15);
+  filter: brightness(1);
+  cursor: pointer;
+}
 
 .site-footer {
   background-color: #274156;
@@ -877,23 +1010,27 @@ h3 {
   z-index: 9900;
   padding: 5em 10em 3em;
   margin-top: 10em;
-  display: inline-block;
   text-align: center;
-  width: 100%; }
-  .site-footer h1 {
-    color: #d0ccd0; }
-  .site-footer img {
-    margin: 1.8em;
-    transition: transform .45s ease-in-out; }
-    .site-footer img:hover {
-      transform: scale(1.15, 1.15);
-      cursor: pointer; }
-  .site-footer p {
-    background: none;
-    padding: 2em 0 0;
-    color: #d0ccd0;
-    font-size: 0.8rem;
-    font-family: 'Quicksand', sans-serif; }
+  max-width: 100%;
+}
+.site-footer h1 {
+  color: #d0ccd0;
+}
+.site-footer img {
+  margin: 1.8em;
+  transition: transform .45s ease-in-out;
+}
+.site-footer img:hover {
+  transform: scale(1.15, 1.15);
+  cursor: pointer;
+}
+.site-footer p {
+  background: none;
+  padding: 2em 0 0;
+  color: #d0ccd0;
+  font-size: 0.8rem;
+  font-family: 'Quicksand', sans-serif;
+}
 
 /******************************************
 /* HELPER CLASSES
@@ -902,22 +1039,200 @@ h3 {
 .clearfix:before,
 .clearfix:after {
   content: " ";
-  display: table; }
+  display: table;
+}
 
 .clearfix:after {
-  clear: both; }
+  clear: both;
+}
 
 .is-hidden {
-  display: none; }
+  display: none;
+}
 
 .is-visible {
-  display: block; }
+  display: block;
+}
 
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
+/* MEDIA QUERIES */
+@media screen and (max-width: 320px) {
+  .video-container video {
+    top: -125px;
+    left: -190px;
+  }
+  .video-container .brand-title {
+    top: 12%;
+    left: 0;
+  }
+  .video-container .brand-title h1 {
+    font-size: 2.6rem;
+  }
+  .video-container .brand-title h2 {
+    word-spacing: 300px;
+    font-size: 1.3rem;
+    line-height: 1.8;
+  }
+
+  .scroll-icon {
+    width: 30px;
+    left: 47%;
+  }
+
+  .nav-icon {
+    display: none;
+    width: 30px;
+    top: 1%;
+    left: 82%;
+  }
+
+  .site-content .pinned {
+    position: static;
+  }
+  .site-content .pinned .menu {
+    position: static;
+    padding: 5em 1.6em;
+  }
+  .site-content .pinned .menu a {
+    width: auto;
+    display: inline-block;
+    font-size: 1.8rem;
+    letter-spacing: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    text-align: center;
+  }
+  .site-content .text-1 {
+    overflow: hidden;
+    padding: 0;
+    background-color: rgba(96, 88, 86, 0.6);
+  }
+  .site-content .text-1 p {
+    display: none;
+  }
+  .site-content .text-2, .site-content .text-3 {
+    font-size: 1rem;
+  }
+  .site-content .links h3 {
+    left: 40%;
+    padding: 0.2em 0.5em;
+    font-size: 0.8em;
+  }
+  .site-content .links a img {
+    width: 100px;
+  }
+  .site-content .links a p {
+    font-weight: 500;
+    line-height: 1em;
+    width: 100%;
+    word-spacing: 60px;
+    letter-spacing: 3px;
+  }
+  .site-content .links .photo-gallery {
+    left: 3.125%;
+    top: 4.52%;
+  }
+  .site-content .links .photo-gallery a p {
+    font-size: 1.2rem;
+    top: 25%;
+  }
+  .site-content .links .map-services {
+    left: 64.06%;
+    top: 52.81%;
+  }
+  .site-content .links .map-services a p {
+    font-size: 0.9rem;
+    top: 35%;
+  }
+  .site-content .links .web-development {
+    top: 75%;
+    left: 62.5%;
+  }
+  .site-content .links .web-development a p {
+    font-size: 0.7rem;
+    top: 21%;
+    letter-spacing: 0px;
+  }
+  .site-content .links .online-shop {
+    top: 69.791%;
+    left: 12.06%;
+  }
+  .site-content .links .online-shop a p {
+    font-size: 1.1rem;
+    top: 20%;
+  }
+  .site-content .links .art {
+    top: 20.83%;
+    left: 35.93%;
+  }
+  .site-content .links .art a p {
+    font-size: 2.4rem;
+    top: 31%;
+  }
+  .site-content .links .about {
+    left: 50%;
+    top: 43.12%;
+  }
+  .site-content .links .about a p {
+    font-size: 1.6rem;
+    top: 21%;
+  }
+  .site-content .links .contact {
+    left: 6.25%;
+  }
+  .site-content .links .contact a p {
+    font-size: 1.1rem;
+    top: 34%;
+  }
+  .site-content .links .drag-me {
+    transform: scale(0.9, 0.9);
+    top: 2.08%;
+    left: 64.06%;
+  }
+  .site-content .links .drag-me a {
+    font-weight: 500;
+  }
+  .site-content .services h3 {
+    left: 21%;
+    padding: 0.2em 0.5em;
+    font-size: 0.8em;
+  }
+  .site-content .services .grid-row .text {
+    padding: 0.2em 0.1em 0;
+  }
+  .site-content .services .grid-row .text ul {
+    padding: 0;
+  }
+  .site-content .services .grid-row .text ul p {
+    font-size: 0.9rem;
+  }
+  .site-content .services .grid-row .text li {
+    font-size: 0.4rem;
+    padding: 1em 1.2em 0;
+  }
+  .site-content p {
+    font-size: 1rem;
+  }
+
+  .site-footer {
+    padding: 0;
+    margin: 0;
+    background: none;
+  }
+  .site-footer h1 {
+    margin: 1.2em 0;
+  }
+  .site-footer img {
+    margin: 0.1em 0.2em 1.2em;
+    width: 20px;
+  }
+}
 body {
   background: white;
-  color: #605856; }
+  color: #605856;
+  max-width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

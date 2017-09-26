@@ -8,4 +8,5 @@ $background: #fbfcff;
 body {
 	background: lighten( $brand-color, 70% );
 	color: $brand-color;
+	max-width: 100%;
 }
