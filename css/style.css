@@ -493,7 +493,7 @@ body {
 }
 
 .video-container {
-  position: relative;
+  position: static;
   max-width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -1018,6 +1018,9 @@ h3 {
   text-align: center;
   max-width: 100%;
 }
+.site-footer a {
+  text-decoration: none;
+}
 .site-footer h1 {
   color: #d0ccd0;
 }
@@ -1065,7 +1068,7 @@ h3 {
 /* MEDIA QUERIES */
 @media screen and (max-width: 320px) {
   .video-container video {
-    height: 100vh;
+    height: 100%;
   }
   .video-container .brand-title {
     top: 12%;
