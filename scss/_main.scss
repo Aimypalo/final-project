@@ -836,6 +836,27 @@ h3 {
 		p {
 			font-size: 1rem;
 		}
+
+		form {
+			width: 95%;
+			height: 100%;
+			position: relative;
+			margin-bottom: 7em;
+			h3 {
+				left: 0%;
+			}
+			.contact-form-off {
+				top: 10px;
+				left: 93%;
+			}
+			.text-input {
+				font-size: 1rem;
+				width: 100%;
+			}
+			.form-button input {
+				position: static;
+			}
+		}
 	}
 	.site-footer {
 		padding: 0;

@@ -1227,6 +1227,26 @@ h3 {
   .site-content p {
     font-size: 1rem;
   }
+  .site-content form {
+    width: 95%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 7em;
+  }
+  .site-content form h3 {
+    left: 0%;
+  }
+  .site-content form .contact-form-off {
+    top: 10px;
+    left: 93%;
+  }
+  .site-content form .text-input {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .site-content form .form-button input {
+    position: static;
+  }
 
   .site-footer {
     padding: 0;
