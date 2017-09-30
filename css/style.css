@@ -1066,7 +1066,7 @@ h3 {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 /* MEDIA QUERIES */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .video-container video {
     height: 100%;
   }
@@ -1078,7 +1078,7 @@ h3 {
     font-size: 2.6rem;
   }
   .video-container .brand-title h2 {
-    word-spacing: 300px;
+    word-spacing: 310px;
     font-size: 1.3rem;
     line-height: 1.8;
   }
@@ -1104,7 +1104,7 @@ h3 {
   }
   .site-content .pinned .menu a {
     width: auto;
-    display: inline-block;
+    display: block;
     font-size: 1.8rem;
     letter-spacing: 15px;
     line-height: 1.6;
@@ -1118,6 +1118,9 @@ h3 {
   }
   .site-content .text-1 p {
     display: none;
+  }
+  .site-content .text-1 .tell-us {
+    display: block;
   }
   .site-content .text-2, .site-content .text-3 {
     font-size: 1rem;
@@ -1207,17 +1210,19 @@ h3 {
     font-size: 0.8em;
   }
   .site-content .services .grid-row .text {
-    padding: 0.2em 0.1em 0;
+    padding: 0.2em 0;
   }
   .site-content .services .grid-row .text ul {
     padding: 0;
   }
   .site-content .services .grid-row .text ul p {
     font-size: 0.9rem;
+    padding-bottom: 0.1em;
   }
   .site-content .services .grid-row .text li {
-    font-size: 0.4rem;
-    padding: 1em 1.2em 0;
+    font-size: 0.6rem;
+    padding: 0 0.9em;
+    text-align: left;
   }
   .site-content p {
     font-size: 1rem;
