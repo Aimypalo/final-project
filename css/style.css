@@ -1075,17 +1075,19 @@ h3 {
     left: 0;
   }
   .video-container .brand-title h1 {
-    font-size: 2.6rem;
+    font-size: 2.9rem;
   }
   .video-container .brand-title h2 {
     word-spacing: 310px;
     font-size: 1.3rem;
     line-height: 1.8;
+    margin-top: 3em;
+    font-weight: 400;
   }
 
   .scroll-icon {
     width: 30px;
-    left: 47%;
+    left: 46%;
   }
 
   .nav-icon {
@@ -1115,6 +1117,7 @@ h3 {
     overflow: hidden;
     padding: 0;
     background-color: rgba(96, 88, 86, 0.6);
+    clear: both;
   }
   .site-content .text-1 p {
     display: none;
@@ -1246,6 +1249,14 @@ h3 {
   }
   .site-content form .form-button input {
     position: static;
+  }
+  .site-content .slide {
+    position: relative;
+    top: 0px;
+  }
+  .site-content .slide .switch-off {
+    top: 10px;
+    left: 93%;
   }
 
   .site-footer {

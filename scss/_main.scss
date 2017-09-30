@@ -678,19 +678,21 @@ h3 {
 			top: 12%;
 			left: 0;
 			h1 {
-				font-size: 2.6rem;
+				font-size: 2.9rem;
 			}
 			h2 {
 				word-spacing: 310px;
 				font-size: 1.3rem;
 				line-height: 1.8;
+				margin-top: 3em;
+				font-weight: 400;
 			}
 		}
 	}
 
 	.scroll-icon {
 		width: 30px;
-		left: 47%;
+		left: 46%;
 	}
 
 	.nav-icon {
@@ -721,6 +723,7 @@ h3 {
 			overflow: hidden;
 			padding: 0;
 			background-color: rgba(96, 88, 86, 0.6);
+			clear: both;
 			p {
 				display: none;
 			}
@@ -855,6 +858,14 @@ h3 {
 			}
 			.form-button input {
 				position: static;
+			}
+		}
+		.slide {
+			position: relative;
+			top: 0px;
+			.switch-off {
+				top: 10px;
+				left: 93%;
 			}
 		}
 	}
