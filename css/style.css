@@ -503,21 +503,16 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  height: 100%;
   filter: brightness(50%);
   z-index: 1;
   overflow: hidden;
 }
 
-@media screen and (min-width: 1080px) {
-  .video-container video {
-    width: 100%;
-  }
-}
 .brand-title {
   z-index: 9999;
-  position: absolute;
+  position: relative;
   top: 26%;
-  left: 30%;
 }
 .brand-title h1 {
   color: white;
@@ -541,6 +536,7 @@ body {
 }
 
 .nav-icon {
+  display: none;
   position: sticky;
   left: 88%;
   top: 8%;
@@ -637,7 +633,7 @@ form {
   background-color: rgba(96, 88, 86, 0.9);
   display: inline-block;
   width: 80%;
-  height: 87vh;
+  height: 100%;
   position: sticky;
   top: 75.12px;
   z-index: 9999;
@@ -648,6 +644,7 @@ form h3 {
   position: absolute;
   left: 37%;
   display: inline-block;
+  top: initial;
 }
 form h1 {
   margin: 2em 0 0;
@@ -1066,10 +1063,7 @@ h3 {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 /* MEDIA QUERIES */
-@media screen and (max-width: 375px) {
-  .video-container video {
-    height: 100%;
-  }
+@media screen and (max-width: 414px) {
   .video-container .brand-title {
     top: 12%;
     left: 0;
@@ -1078,7 +1072,7 @@ h3 {
     font-size: 2.9rem;
   }
   .video-container .brand-title h2 {
-    word-spacing: 310px;
+    word-spacing: 345px;
     font-size: 1.3rem;
     line-height: 1.8;
     margin-top: 3em;
@@ -1270,6 +1264,34 @@ h3 {
   .site-footer img {
     margin: 0.1em 0.2em 1.2em;
     width: 20px;
+  }
+}
+@media screen and (max-height: 414px) {
+  .brand-title {
+    top: 0;
+  }
+
+  .scroll-icon {
+    top: 60%;
+    width: 30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .site-content .pinned {
+    position: static;
+  }
+  .site-content .pinned .menu {
+    position: static;
+    padding: 5em 1.6em;
+  }
+  .site-content .pinned .menu a {
+    width: auto;
+    display: block;
+    font-size: 1.8rem;
+    letter-spacing: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    text-align: center;
   }
 }
 body {
