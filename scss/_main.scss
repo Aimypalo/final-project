@@ -621,7 +621,7 @@ h3 {
 		color: $secondary-color;
 	}
 	img {
-		margin: 1.8em;
+		margin: 1.4em;
 		transition: transform .45s ease-in-out;
 		&:hover {
 			transform: scale(1.15,1.15);
@@ -874,7 +874,7 @@ h3 {
 		}
 		img {
 			margin: 0.1em 0.2em 1.2em;
-			width: 20px;
+			width: 6.2%;
 		}
 
 	}
@@ -973,7 +973,7 @@ h3 {
 	.site-footer {
 		a img {
 			margin: 0.1em 0.7em 1.2em;
-			width: 20px;
+			width: 6.2%;
 		}
 	}
 }
@@ -1050,6 +1050,7 @@ h3 {
 		padding: 3em 3em 3em;
 		a img {
 			margin: 0.6em;
+			width: 6.5%;
 		}
 	}
 }

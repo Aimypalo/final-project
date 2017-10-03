@@ -1025,7 +1025,7 @@ h3 {
   color: #d0ccd0;
 }
 .site-footer img {
-  margin: 1.8em;
+  margin: 1.4em;
   transition: transform .45s ease-in-out;
 }
 .site-footer img:hover {
@@ -1269,7 +1269,7 @@ h3 {
   }
   .site-footer img {
     margin: 0.1em 0.2em 1.2em;
-    width: 20px;
+    width: 6.2%;
   }
 }
 @media screen and (max-height: 414px) and (orientation: landscape) {
@@ -1358,7 +1358,7 @@ h3 {
 
   .site-footer a img {
     margin: 0.1em 0.7em 1.2em;
-    width: 20px;
+    width: 6.2%;
   }
 }
 @media screen and (max-width: 640px) {
@@ -1425,6 +1425,7 @@ h3 {
   }
   .site-footer a img {
     margin: 0.6em;
+    width: 6.5%;
   }
 }
 body {
