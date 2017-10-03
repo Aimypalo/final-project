@@ -297,6 +297,7 @@ p {
 	background-color: #d0ccd0;
 	text-align: center;
 	padding: 5em 0 7em;
+	clear: both;
 	p {
 		background-color: #d0ccd0;
 		font-size: 2rem;
@@ -606,7 +607,7 @@ h3 {
 	background-color: $shadow-color;
 	position: relative;
 	z-index: 9900;
-	padding: 5em 10em 3em;
+	padding: 5em 3em 3em;
 	margin-top: 10em;
 	// display: inline-block;
 	text-align: center;
@@ -662,7 +663,7 @@ h3 {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 438px) and (orientation: portrait) {
 	.video-container {
 		.brand-title {
 			top: 12%;
@@ -671,7 +672,7 @@ h3 {
 				font-size: 2.9rem;
 			}
 			h2 {
-				word-spacing: 345px;
+				word-spacing: 370px;
 				font-size: 1.3rem;
 				line-height: 1.8;
 				margin-top: 3em;
@@ -875,13 +876,94 @@ h3 {
 
 }
 
-@media screen and (max-height: 414px) {
+@media screen and (max-height: 414px) and (orientation: landscape) {
 	.brand-title {
 		top: 0;
 	}
 	.scroll-icon {
 		top: 60%;
 		width: 30px;
+	}
+	.site-content {
+		p {
+			padding: 4em 2em;
+			font-size: 1.6rem;
+		}
+		form {
+			width: 85%;
+			h3 {
+				left: 28%;
+			}
+			p {
+				left: 80%;
+			}
+			.form-field .text-input {
+				width: 100%;
+			}
+			.form-button input {
+				position: static;
+			}
+		}
+		.text-1 {
+			padding: 3em 0;
+			p {
+			padding: 2em 3em;
+			font-size: 1rem;
+			}
+			.tell-us {
+				font-size: 1.3rem;
+				margin-bottom: 2em;
+			}
+		}
+		.links {
+			div {
+				transform: scale(0.9, 0.9);
+			}
+			.photo-gallery {
+				top: 1%;
+				left: 10%;
+			}
+			.web-development {
+				top: 23%;
+				a p {
+					font-size: 1em;
+					letter-spacing: 4px;
+				}
+			}
+			.map-services {
+				top: 47%;
+				left: 60%;
+			}
+			.online-shop {
+				top: 59%;
+			}
+			.contact {
+				top: 40%;
+				left: 2%;
+			}
+			.art {
+				top: 13%;
+				left: 43%;
+			}
+		}
+		.services {
+			h3 {
+				left: 29%;
+			}
+			.grid-row .text ul {
+				padding: 0 0.5em;
+				li {
+					padding: 0.8em 0 0 0.8em;
+					text-align: left;
+				}
+			}
+		}
+	}
+	.site-footer {
+		a img {
+			margin: 0.1em 0.7em 1.2em;
+			width: 20px;
+		}
 	}
 }
 
@@ -905,3 +987,60 @@ h3 {
 		}
 	}
 }
+
+@media screen and (min-width: 438px) and (max-width: 834px) and (orientation: portrait) {
+	.site-content {
+		form {
+			width: 85%;
+			h3 {
+				left: 28%;
+			}
+			p {
+				left: 80%;
+			}
+			.form-field .text-input {
+				width: 100%;
+			}
+			.form-button input {
+				position: static;
+			}
+		}
+		.links {
+			div {
+				transform: scale(1.4, 1.4);
+			}
+			.photo-gallery {
+				left: 13%;
+			}
+			.map-services {
+				top: 75%;
+				left: 56%;
+			}
+			.web-development {
+				top: 45%;
+				left: 65%;
+			}
+			.about {
+				top: 35%;
+				left: 35%;
+			}
+		}
+		.services {
+			h3 {
+				left: 33%;
+			}
+			.grid-row .text ul {
+				padding: 0em 0.5em;
+			}
+		}
+	}
+
+	.site-footer {
+		padding: 3em 3em 3em;
+		a img {
+			margin: 0.6em;
+		}
+	}
+}
+
+
