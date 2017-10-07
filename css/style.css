@@ -755,12 +755,13 @@ p {
 }
 
 .text-2 {
-  background: none;
-  color: #ff1c3a;
+  background-color: whitesmoke;
+  color: #1c6e8c;
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 5px;
   overflow: hidden;
+  line-height: 1.5em;
 }
 
 h3 {
@@ -931,6 +932,7 @@ h3 {
   font-size: 2.5rem;
   letter-spacing: 5px;
   overflow: hidden;
+  line-height: 1.5em;
 }
 
 .services {
@@ -984,7 +986,7 @@ h3 {
   background-color: #d0ccd0;
 }
 .grid-row .text li {
-  list-style-type: circle;
+  list-style-type: disc;
   font-size: 0.9rem;
   font-family: 'Quicksand', sans-serif;
   text-align: left;
@@ -1445,8 +1447,8 @@ h3 {
   }
 
   .text-2, .text-3 {
-    font-size: 1.7rem;
-    padding: 5em 3em;
+    font-size: 2rem;
+    padding: 5em 2em;
   }
 
   .grid-row .text ul p {
@@ -1472,8 +1474,8 @@ h3 {
   }
 
   .text-2, .text-3 {
-    font-size: 2rem;
-    padding: 7em;
+    font-size: 3rem;
+    padding: 4em;
   }
 
   .grid-row .text ul p {
