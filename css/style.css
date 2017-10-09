@@ -778,11 +778,6 @@ h3 {
   z-index: 9000;
 }
 
-.map {
-  filter: brightness(0.8);
-  display: block;
-}
-
 .links {
   border-top: 3px solid #ff1c3a;
   position: relative;

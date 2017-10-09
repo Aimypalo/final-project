@@ -76,7 +76,6 @@ body {
 	z-index: 9999;
 	position: relative;
 	top: 26%;
-	// left: 30%;
 
 	h1 {
 	color: white;
@@ -323,7 +322,6 @@ p {
 
 .text-2 {
 	background-color: whitesmoke;
-	// background: none;
 	color: #1c6e8c;
 	font-size: 2.5rem;
 	font-weight: 700;
@@ -346,12 +344,6 @@ h3 {
 	z-index: 9000;
 }
 
-.map {
-	filter: brightness(0.8);
-	// opacity: 0.8;
-	display: block;
-}
-
 .links {
 	border-top: 3px solid $highlight;
 	position: relative;
@@ -370,7 +362,6 @@ h3 {
 			position: absolute;
 			z-index: 1000;
 			text-decoration: none;
-			// color: $brand-color;
 			color: white;
 			font-family: 'Raleway', sans-serif;
 			font-weight: 700;
@@ -397,14 +388,6 @@ h3 {
 			}
 		}
 	}
-	// .waves-video {
-	// 		position: absolute;
-	// 		top: 0;
-	// 		left: 0;
-	// 		width: 100%;
-	// 		filter: brightness(50%);
-	// 		z-index: 10;
-	// 	}
 	.photo-gallery {
 		// width: 17%;
 		position: absolute;
@@ -620,7 +603,6 @@ h3 {
 	z-index: 9900;
 	padding: 5em 3em 3em;
 	margin-top: 10em;
-	// display: inline-block;
 	text-align: center;
 	max-width: 100%;
 	a {
