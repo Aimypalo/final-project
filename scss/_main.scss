@@ -348,15 +348,23 @@ h3 {
 .links {
 	border-top: 3px solid $highlight;
 	position: relative;
-	// background-image: url(../images/volcano.jpg);
 	background-size: cover;
 	background-color: rgba(53, 48, 47, 0.9);
 	max-width: 100%;
 	height: 100vh;
 	overflow: hidden;
+	div {
+		background-color: rgba(3, 3, 3, 0.5);
+		&:hover {
+				background-color: rgba(3, 3, 3, 0.5);
+				z-index: 200;
+				border: none;
+		}
+	}
 	a {
 		&:hover {
 			cursor: pointer;
+			filter: invert(100%);
 		}
 		p {
 			width: 100%;
@@ -374,19 +382,13 @@ h3 {
 			top: 0;
 			left: 0;
 			bottom: 0;
-			// &:hover {
-			// 	background-color: rgba(255, 28, 58, 0.5);
-			// }
 		}
 		img {
 			position: relative;
 			display: block;
-			opacity: 0.8;
-			z-index: 8900;
-			&:hover {
-				background-color: rgba(3, 3, 3, 0.5);
-				z-index: 200;
-			}
+			opacity: 0;
+			filter: invert(100%);
+			z-index: 200;
 		}
 	}
 	.photo-gallery {
@@ -395,6 +397,9 @@ h3 {
 		top: 10%;
 		left: 25%;
 		z-index: 8900;
+		&:hover {
+			background-image: url("../images/linear-map/photo-gallery.gif");
+		}
 		// background-color: rgba(3, 3, 3, 0.5);
 		// transform: scale(1.3, 1.3);
 		p {
@@ -409,6 +414,9 @@ h3 {
 		top: 63%;
 		left: 50%;
 		z-index: 8900;
+		&:hover {
+			background-image: url("../images/linear-map/services.gif");
+		}
 		// background-color: rgba(3, 3, 3, 0.5);
 		// transform: scale(1.3, 1.3);
 		p {
@@ -424,6 +432,9 @@ h3 {
 		left: 70%;
 		z-index: 8900;
 		transform: scale(1.3, 1.3);
+		&:hover {
+			background-image: url("../images/linear-map/design-solutions.gif");
+		}
 		p {
 			// padding-top: 1.5em;
 			font-size: 1.5rem;
@@ -438,6 +449,9 @@ h3 {
 		left: 25%;
 		z-index: 8900;
 		transform: scale(1.3, 1.3);
+		&:hover {
+			background-image: url("../images/linear-map/photography-shop.gif");
+		}
 		p {
 			// padding-top: 0.6em;
 			font-size: 1.5rem;
@@ -451,6 +465,9 @@ h3 {
 		left: 47%;
 		z-index: 8900;
 		transform: scale(1.3, 1.3);
+		&:hover {
+			background-image: url("../images/linear-map/art.gif");
+		}
 		// background-color: rgba(3, 3, 3, 0.5);
 		p {
 			// padding-top: 0.5em;
@@ -465,6 +482,9 @@ h3 {
 		left: 40%;
 		z-index: 8900;
 		transform: scale(1.3, 1.3);
+		&:hover {
+			background-image: url("../images/linear-map/about.gif");
+		}
 		p {
 			// padding-top: 0.4em;
 			font-size: 2.1rem;
@@ -478,6 +498,9 @@ h3 {
 		left: 5%;
 		z-index: 8900;
 		transform: scale(1.3, 1.3);
+		&:hover {
+			background-image: url("../images/linear-map/contact.gif");
+		}
 		// background-color: rgba(3, 3, 3, 0.5);
 		p {
 			// padding-top: 0.9em;
@@ -493,6 +516,7 @@ h3 {
 		left: 65%;
 		z-index: 8900;
 		transform: scale(1.3, 1.3);
+		border: none;
 		a {
 			display: inline-block;
 			padding: 0.9em;
@@ -504,9 +528,9 @@ h3 {
 			text-align: center;
 			letter-spacing: 6px;
 			line-height: 1.2em;
-			border: solid white 1px;
 			&:hover {
 				background-color: rgba(255, 28, 58, 0.5);
+				filter: invert(0%);
 			}
 		}
 	}
