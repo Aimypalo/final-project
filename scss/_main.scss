@@ -171,8 +171,8 @@ body {
 .slide {
 	max-width: 95%;
 	float: right;
-	position: relative;
-	top: 100px;
+	position: fixed;
+	top: 0;
 	z-index: 9999;
 	.switch-off {
 		float: right;
@@ -194,13 +194,13 @@ body {
 	}
 }
 
-form {
+.contact-form {
 	background-color: rgba(96, 88, 86, 0.9);
 	display: inline-block;
 	width: 80%;
 	height: 100%;
-	position: relative;
-	top: 75.12px;
+	position: fixed;
+	top: 0;
 	z-index: 9999;
 	padding: 0em 3em 3em;
 	margin-bottom: 5em;
